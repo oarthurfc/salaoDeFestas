@@ -2,12 +2,13 @@
 
 ## 📋 Índice
 
+- [Contexto](#-Contexto)
+- [Documentação](#-Documentação)
+- [Contribuidores](#-Contribuidores)
 - [Sobre](#-Sobre)
+- [Objetivos](#-Objetivos)
 - [Tecnologias utilizadas](#-Tecnologias-utilizadas)
 - [Como executar o projeto](#-Como-executar-o-projeto)
-- [Contribuidores](#-Contribuidores)
-- [Documentação](#-Documentação)
-- [Contexto](#-Contexto)
 
 ---
 
@@ -23,13 +24,11 @@ necessário compreender a real necessidade do salão e desenvolver um software e
 seguir é descrito como deverá funcionar o sistema, bem como suas restrições.</small>
 
 ## Documentação do Projeto
-[Clique Aqui](https://drive.google.com/file/d/1TOugNyQbz6zPRWl2OXTKr207B2fIZ1BD/view?usp=drivesdk), para ir para a documentação completa.
+[Clique Aqui](https://github.com/oarthurfc/salaoDeFestas/tree/main/documenta%C3%A7%C3%A3o), para ir para a documentação completa.
 
 ## Contribuidores
-[![Guilherme](https://avatars0.githubusercontent.com/u/63319368?s=50&u=bdf502a9e02038033aff63b3cf3ce561a0ee7711&v=4 "Guilherme")](https://github.com/guizombas) [![Henrique](https://avatars0.githubusercontent.com/u/24460777?s=50&u=dda0838319007c563a6a602ba1be32a949cd8e77&v=4 "Henrique")](https://github.com/Henrikkee)  [![Jose](https://avatars0.githubusercontent.com/u/65291400?s=50 "José")](https://github.com/josemauriciogf) 
-[![Lucas](https://avatars0.githubusercontent.com/u/49598959?s=50 "Lucas")](https://github.com/Lucas-Angelo) 
-[![Marco](https://i.imgur.com/mIunqre.png "Marco")](https://github.com/MarcoTullio1) 
-
+[![Arthur](https://avatars0.githubusercontent.com/u/49598959?s=50 "Arthur")](https://github.com/oarthurfc) 
+[![Davi]()](https://github.com/daviaugustoo) 
 
 ## 📖 Sobre 
 
