@@ -27,7 +27,7 @@ seguir é descrito como deverá funcionar o sistema, bem como suas restrições.
 [Clique Aqui](https://github.com/oarthurfc/salaoDeFestas/tree/main/documenta%C3%A7%C3%A3o), para ir para a documentação completa.
 
 ## Contribuidores
-[![Arthur](https://avatars0.githubusercontent.com/u/49598959?s=50 "Arthur")](https://avatars.githubusercontent.com/u/119077937?v=4)](https://github.com/oarthurfc) 
+[![Arthur](https://avatars.githubusercontent.com/u/119077937?v=4)](https://github.com/oarthurfc) 
 [![Davi](https://avatars.githubusercontent.com/u/113954562?v=4)](https://github.com/daviaugustoo) 
 
 ## 📖 Sobre 
