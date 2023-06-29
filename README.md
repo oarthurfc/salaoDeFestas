@@ -27,21 +27,23 @@ seguir é descrito como deverá funcionar o sistema, bem como suas restrições.
 [Clique Aqui](https://github.com/oarthurfc/salaoDeFestas/tree/main/documenta%C3%A7%C3%A3o), para ir para a documentação completa.
 
 ## Contribuidores
-[![Arthur](https://avatars0.githubusercontent.com/u/49598959?s=50 "Arthur")](https://github.com/oarthurfc) 
-[![Davi]()](https://github.com/daviaugustoo) 
+[![Arthur](https://avatars0.githubusercontent.com/u/49598959?s=50 "Arthur")](https://avatars.githubusercontent.com/u/119077937?v=4)](https://github.com/oarthurfc) 
+[![Davi](https://avatars.githubusercontent.com/u/113954562?v=4)](https://github.com/daviaugustoo) 
 
 ## 📖 Sobre 
 
-Este é um projeto desenvolvido para a disciplina **Algoritmo e Estrutura de Dados 1**, do curso de Engenharia de Software da **[PucMinas.br](https://www.pucminas.br/)**, durante o primeiro semestre de 2020.
+Este é um projeto desenvolvido para as disciplinas **Fundamentos de Engenharia de Software** e **Algoritmo e Estrutura de Dados 1**,
+do curso de Engenharia de Software da **[PucMinas.br](https://www.pucminas.br/)**, durante o primeiro semestre de 2023.
 
-A proposta deste projeto na disciplina, é criar um programa de cadastro de dados para um salão de festas chamado Patati Patata.
+A proposta deste projeto, é criar um programa de cadastro de dados na linguagem de programação C para um salão de festas chamado Patati Patata.
 
 ## Objetivos:
 
- - <small>Criar telas de cadastro de cliente, funcionário,fornecedor, festa de contrato </small>
- - <small>Validar todas as inserções feitas pelo usuário, removendo a possibilidade de um registro duplicado</small>
- - <small>Validar pendencias antes da criação de um festa, devem existir registros de cliente, fornecedor e funcionário.</small>
- - <small>Criar  relatórios sobre a realização de festas</small>
+ - <small>Deseja-se cadastrar os clientes, os fornecedores e as festas</small>
+ - <small>CLIENTE = código do cliente, nome, endereço, telefone, data de nascimento</small>
+ - <small>FORNECEDOR = código do fornecedor, nome do buffet, telefone</small>
+ - <small>FESTA = código da festa, quantidade de convidados, data, dia da semana, horário (início e término), tema, código do cliente, código do fornecedor</small>
+ - <small>CONTRATO = número do contrato, valor total, desconto, valor final, forma de pagamento, status, código da festa</small>
 
 --- 
 
@@ -57,7 +59,7 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/Lucas-Angelo/salaoDeFestas.git
+git clone https://github.com/oarthurfc/salaoDeFestas.git
 
 # Entrar no diretório
 
