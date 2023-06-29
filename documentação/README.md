@@ -55,8 +55,8 @@ Este documento tem os seguintes objetivos:
 ### 1.2 Público Alvo
 
 Este documento tem os seguintes públicos alvo:	
-•	Estudantes de Engenharia de Software: O projeto foi desenvolvido como parte do curso de Engenharia de Software, portanto, é direcionado aos estudantes dessa área que desejam aprender e aprimorar suas habilidades em programação na linguagem C;
-•	Professores e acadêmicos de disciplinas relacionadas: Além dos estudantes, o projeto também pode ser interessante para professores e acadêmicos que lecionam ou pesquisam disciplinas relacionadas à engenharia de software, algoritmos, estrutura de dados e desenvolvimento de software;
+•.	Estudantes de Engenharia de Software: O projeto foi desenvolvido como parte do curso de Engenharia de Software, portanto, é direcionado aos estudantes dessa área que desejam aprender e aprimorar suas habilidades em programação na linguagem C;
+•.	Professores e acadêmicos de disciplinas relacionadas: Além dos estudantes, o projeto também pode ser interessante para professores e acadêmicos que lecionam ou pesquisam disciplinas relacionadas à engenharia de software, algoritmos, estrutura de dados e desenvolvimento de software;
 
 Identificar o público alvo do documento, isto é, todos os perfis de pessoas que terão interesse na sua leitura. Os interesses de cada perfil na leitura do documento também devem ser descritos.
 
