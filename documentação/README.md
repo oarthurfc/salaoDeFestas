@@ -36,24 +36,27 @@ Salão de Festas Patati Patatá
 
 ## 1. Introdução
 
-O presente documento apresenta uma detalhamento de um código em C. o qual permitira o usuário uma gestão de um salão de festa
+O presente documento apresenta um detalhamento de um código em C que permitirá aos usuários realizar a gestão de um salão de festas.
 
-Esta seção deverá apresentar o documento ao leitor. O objetivo principal da introdução é descrever o documento e não o sistema, embora deva ser mencionado qual é o sistema e para qual empresa ou mercado ele será construído. O conteúdo a ser coberto na introdução está descrito nas subseções seguintes.	
+Neste documento, serão apresentados detalhes sobre a estrutura do código, as funcionalidades implementadas, as principais bibliotecas 
+utilizadas e a lógica por trás das diferentes partes do programa. Além disso, serão fornecidas instruções para compilar e executar o 
+código, bem como informações sobre possíveis melhorias e futuras implementações. Ao longo deste documento, o sistema desenvolvido será 
+descrito de forma clara e objetiva, destacando suas principais características e benefícios.
 
 ### 1.1 Objetivos
 
-Definir os objetivos do documento.	
-Exemplo:	
 Este documento tem os seguintes objetivos:	
-•	Definir os interessados no sistema e as suas necessidades que devem ser satisfeitas pelo sistema a ser desenvolvido;	
-•	Derivar os casos de uso e requisitos do sistema de forma a orientar a equipe de que será responsável pelo seu desenvolvimento;	
-•	Estabelecer um contrato para negociação e concordância entre todos os interessados;	
-•	Reduzir retrabalho com projeto, codificação e teste através da especificação rigorosa e completa dos requisitos;	
-•	Prover uma base para avaliação de prazos e custos de desenvolvimento;	
-•	Facilitar a transferência dos produtos do desenvolvimento para novos usuários, novos clientes, novos ambientes operacionais e novas equipes de desenvolvimento e manutenção;	
-•	Prover uma base para a evolução futura do sistema a partir de uma versão aprovada (linha de base) deste documento.	
+•	Apresentar um detalhamento de um código em C para a gestão de um salão de festas;
+•	Descrever o projeto desenvolvido para as disciplinas Fundamentos de Engenharia de Software e Algoritmo e Estrutura de Dados 1;	
+•	Informar sobre o propósito do projeto, que é criar um programa de cadastro de dados em C para o salão de festas Patati Patatá;	
+•	Destacar as funcionalidades implementadas no programa, como o gerenciamento de clientes, fornecedores, festas e pagamentos;	
+•	Apresentar o documento de forma clara e objetiva, facilitando a compreensão e o uso do código desenvolvido;
 
 ### 1.2 Público Alvo
+
+Este documento tem os seguintes públicos alvo:	
+•	Estudantes de Engenharia de Software: O projeto foi desenvolvido como parte do curso de Engenharia de Software, portanto, é direcionado aos estudantes dessa área que desejam aprender e aprimorar suas habilidades em programação na linguagem C;
+•	Professores e acadêmicos de disciplinas relacionadas: Além dos estudantes, o projeto também pode ser interessante para professores e acadêmicos que lecionam ou pesquisam disciplinas relacionadas à engenharia de software, algoritmos, estrutura de dados e desenvolvimento de software;
 
 Identificar o público alvo do documento, isto é, todos os perfis de pessoas que terão interesse na sua leitura. Os interesses de cada perfil na leitura do documento também devem ser descritos.
 
