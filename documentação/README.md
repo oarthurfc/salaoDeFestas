@@ -73,6 +73,7 @@ Definir e explicar sucintamente siglas e nomencalturas utilizadas neste document
 
 ## 2. Descrição do problema e do sistema
 -----------------------------------------
+Nesta seção o sistema objeto da especificação de requisitos deve ser descrito. O domínio do problema que deverá ser resolvido pelo sistema deve ser explicado e também as características específicas do problema no contexto da empresa em que o sistema deverá ser utilizado. As subseções seguintes podem ser colocadas no documento EOR para separar cada conteúdo específico, mas também pode ser usado um estilo de texto sem separação de subseções desde que todo o conteúdo seja coberto.
 
 O problema abordado neste projeto interdisciplinar é a falta de um sistema de gestão eficiente 
 para um salão de festas. No qual enfrenta dificuldades na organização de gerenciamento de clientes,
@@ -84,16 +85,14 @@ datas e horários de eventos, detalhes sobre os serviços contratados, históric
 outras informações relacionadas à gestão do salão de festas. Além disso, o sistema possibilitará
 a realização de consultas, fornecendo informações precisas e atualizadas para a tomada de decisões gerenciais.
 
-Nesta seção o sistema objeto da especificação de requisitos deve ser descrito. O domínio do problema que deverá ser resolvido pelo sistema deve ser explicado e também as características específicas do problema no contexto da empresa em que o sistema deverá ser utilizado. As subseções seguintes podem ser colocadas no documento EOR para separar cada conteúdo específico, mas também pode ser usado um estilo de texto sem separação de subseções desde que todo o conteúdo seja coberto.
 
 ### 2.1 Identificação e missão do Sistema
 
-	Identificação do Sistema:
-	Nome: Sistema de Gestão do Salão de Festas Patati Patatá 
-	Versão: 1.0
-
-	Missão do Sistema:
-	A missão do Sistema de Gestão do Salão de Festas Patati Patatá é proporcionar uma solução eficiente e automatizada para a gestão das atividades do salão, visando aprimorar a organização, o controle e a satisfação dos clientes. O sistema tem como objetivo principal facilitar o gerenciamento de reservas, clientes, eventos e pagamentos, otimizando os processos operacionais e fornecendo informações precisas para a tomada de decisões gerenciais.
+#### Identificação do Sistema:
+-	Nome: Sistema de Gestão do Salão de Festas Patati Patatá 
+-	Versão: 1.0
+#### Missão do Sistema:
+-	A missão do Sistema de Gestão do Salão de Festas Patati Patatá é proporcionar uma solução eficiente e automatizada para a gestão das atividades do salão, visando aprimorar a organização, o controle e a satisfação dos clientes. O sistema tem como objetivo principal facilitar o gerenciamento de reservas, clientes, eventos e pagamentos, otimizando os processos operacionais e fornecendo informações precisas para a tomada de decisões gerenciais.
 
 ### 2.2 Domínio do problema e contexto de sua aplicação
 
@@ -101,13 +100,36 @@ A descrição do domínio do problema deve complementar e detalhar a visão gera
 Exemplo:
 Suponha que o domínio do problema seja a venda de produtos em um comércio varejista. Esta seção deverá explicar em que consiste o problema de vender produtos em uma empresa que atua no comércio varejista, ou seja, descrever genericamente quais são os processos de negócio envolvidos e seus objetivos. Além disso, o problema deve ser contextualizado mostrando as características específicas do problema na empresa alvo.
 
+O domínio do problema abordado neste projeto é a gestão de um salão de festas chamado Patati Patatá, situado no contexto do ramo de eventos e entretenimento. O objetivo é desenvolver um sistema de gestão que automatize e melhore os processos envolvidos na administração do salão, atendendo às necessidades específicas dessa empresa.
+
+As características específicas do problema na empresa Patati Patatá podem incluir:
+
+-	Cadastro de clientes: É necessário manter um registro atualizado dos clientes,
+contendo informações pessoais, preferências, histórico de eventos realizados e histórico de pagamentos.
+-	Gestão de datas e horários: O salão precisa gerenciar a disponibilidade do espaço
+para diferentes datas e horários, evitando conflitos e permitindo a programação eficiente de eventos.
+-	Controle de pagamentos: É necessário acompanhar os pagamentos feitos pelos clientes,
+gerar faturas, controlar inadimplências e oferecer opções de pagamento adequadas.
+-	Emissão de relatórios: A geração de relatórios precisos e abrangentes é essencial para
+a análise de desempenho do salão, incluindo dados sobre reservas, faturamento, ocupação do
+espaço e outros indicadores relevantes.
+
+O contexto de aplicação é o ambiente do salão de festas Patati Patatá, onde o sistema
+de gestão será implementado. A empresa busca uma solução que otimize seus processos, 
+reduza erros, melhore a organização e proporcione uma experiência aprimorada tanto para
+a equipe do salão quanto para os clientes. O sistema deve ser capaz de lidar com as demandas
+específicas do salão de festas, permitindo um controle eficiente das operações e auxiliando 
+na tomada de decisões estratégicas para o crescimento do negócio.
+
 ### 2.3 Descrição dos interessados do sistema
 
 Descrever os perfis de cada interessado envolvido com o sistema.
 
 | Interessado(s) 	| Descrição 	|
 |:----------------:	|---------	|
-| Nome do perfil do interessado. Por exemplo: (cliente, atendente, vendedor, gerente comercial, etc.) | Descrever o perfil do interessado e como se espera que seja sua interação com o sistema direta ou indiretamente. Por exemplo, o vendedor da loja é a pessoa que atende os clientes e registra as vendas que são feitas. |
+| Estudantes de Engenharia de Software | O projeto foi desenvolvido como parte do curso de Engenharia de Software, portanto, é direcionado aos estudantes dessa área que desejam aprender e aprimorar suas habilidades em programação na linguagem C |
+| Professores e acadêmicos de disciplinas relacionadas | Além dos estudantes, o projeto também pode ser interessante para professores e acadêmicos que lecionam ou pesquisam disciplinas relacionadas à engenharia de software, algoritmos, estrutura de dados e desenvolvimento de software |
+| Profissionais da área de desenvolvimento de software | O projeto pode atrair profissionais que trabalham na área de desenvolvimento de software, especialmente aqueles que têm interesse em programação na linguagem C e em soluções de gestão de negócios |
 
 ## 3. Requisitos e restrições não funcionais 
 --------------------------------------------
