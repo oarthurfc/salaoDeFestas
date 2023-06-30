@@ -15,24 +15,13 @@ Salão de Festas Patati Patatá
     * 2.2 [Domínio do problema e contexto de sua aplicação](#22-domínio-do-problema-e-contexto-de-sua-aplicação)	
     * 2.3 [Descrição dos interessados do sistema](#23-descrição-dos-interessados-do-sistema)	
 * 3. [Requisitos e restrições não funcionais](#3-requisitos-e-restrições-não-funcionais)
-    * 3.1 [Requisitos e Restrições de Usabilidade (RUS)](#31-requisitos-e-restrições-de-usabilidade-rus)	
-    * 3.2 [Requisitos e Restrições de Interface Homem-Computador (RHIC)](#32-requisitos-e-restrições-de-interface-homem-computador-rhic)	
-    * 3.3 [Requisitos e Restrições de Interface Externa (RIEX)](#33-requisitos-e-restrições-de-interface-externa-riex)	
-    * 3.4 [Requisitos e Restrições de Plataforma de Hardware (RPHW)](#34-requisitos-e-restrições-de-plataforma-de-hardware-rphw)	
-    * 3.5 [Requisitos e Restrições de Plataforma de Software (RPSW)](#35-requisitos-e-restrições-de-plataforma-de-software-rpsw)	
-    * 3.6 [Requisitos e Restrições de Desempenho (RDES)](#36-requisitos-e-restrições-de-desempenho-rdes)	
-    * 3.7 [Requisitos e restrições de disponibilidade (RDIS)](#37-requisitos-e-restrições-de-disponibilidade-rdis)	
-    * 3.8 [Requisitos e Restrições de Segurança (RSEG)](#38-requisitos-e-restrições-de-segurança-rseg)	
-    * 3.9 [Requisitos e Restrições de Manutenibilidade (RMAN)](#39-requisitos-e-restrições-de-manutenibilidade-rman)	
-    * 3.10 [Requisitos e Restrições de Documentação (RDOC)](#310-requisitos-e-restrições-de-documentação-rdoc)
+    * 3.1 [Requisitos e Restrições de Usabilidade (RUS)](#31-requisitos-e-restrições-de-usabilidade-rus)			
+    * 3.2 [Requisitos e Restrições de Plataforma de Software (RPSW)](#35-requisitos-e-restrições-de-plataforma-de-software-rpsw)	
 * 4. [Casos de Uso e Requisitos Funcionais](#4-casos-de-uso-e-requisitos-funcionais)	
     * 4.1 [Diagramas de Caso de Uso e Lista de casos de uso](#41-diagramas-de-caso-de-uso-e-lista-de-casos-de-uso)	
     * 4.2 [Descrição de Casos de Uso](#42-descrição-de-casos-de-uso)	
-* 5. [Requisitos Futuros (RFUT)](#5-requisitos-futuros-rfut)	
-* 6. [Referências cruzadas complementares](#6-referências-cruzadas-complementares)	
-* 7. [Aprovação Formal](#7-aprovação-formal)	
-* 8. [Bibliografia](#8-bibliografia)	
-* 9. [Anexos](#9-anexos)	
+* 5. [Bibliografia](#8-bibliografia)	
+* 6. [Anexos](#9-anexos)	
 
 ## 1. Introdução
 
@@ -147,34 +136,7 @@ Exemplo:
 
 Estes requisitos de informação são importantes para verificar a qualidade da modelagem de dados que for feita.       
 
-### 3.2	Requisitos e Restrições de Interface Homem-Computador (RHIC)
-
-Definir os aspectos de Interface Homem Computador (IHC) como: conteúdo de informações, fatores ergonômicos, dispositivos de interação, formato de apresentação, tipo de diálogo, e mecanismos de ajuda alocados a cada perfil/grupo/tarefa de usuário. Descrever, em particular, os requisitos de usabilidade para cada perfil/grupo/tarefa de usuário. Por exemplo, pode-se definir como requisito que as opções de menu do sistema tenham teclas de atalho associadas. 
-Exemplo:
-
-| Ref.  	|                          Descrição                       	| Caso de Uso |
-|-------	|----------------------------------------------------------	|---------------|
-| RIHCx 	| Descrição do requisito RIHCx | CSUy, CSUm ... |
-
-### 3.3 Requisitos e Restrições de Interface Externa (RIEX)
-
-Identificar e descrever as interfaces com outros softwares/sistemas que o software deverá prover. Por exemplo, um software comercial deve gerar informações para o Sistema de Arrecadação da Secretaria da Fazenda Estadual. O formato dessas informações e o protocolo de envio são definidos pela própria secretaria, e atender essas definições é um requisito do software.
-Exemplo:
-
-| Ref.  	|                          Descrição                       	| Caso de Uso |
-|-------	|----------------------------------------------------------	|---------------|
-| RIEXx 	| Descrição do requisito RIEXx | CSUy, CSUm ...	|
-
-### 3.4 Requisitos e Restrições de Plataforma de Hardware (RPHW)
-
-Identificar e descrever requisitos e restrições relacionadas com a plataforma de hardware que será utilizada pelo software:
-Exemplo:
-
-| Ref.  	|                          Descrição                       	| Caso de Uso |
-|-------	|----------------------------------------------------------	|---------------|
-| RPHWx	| Descrição do requisito RPHWx | CSUy, CSUm ... |
-
-### 3.5 Requisitos e Restrições de Plataforma de Software (RPSW)
+### 3.2 Requisitos e Restrições de Plataforma de Software (RPSW)
 
 Se o software tiver que ser executado em plataformas de software específicas, essas plataformas de software deverão ser definidas:
 1. Sistema Operacional: identificar e descrever o sistema operacional em que o software deverá ser executado;
@@ -185,63 +147,6 @@ Exemplo:
 | Ref.  	|                          Descrição                       	| Caso de Uso |
 |-------	|----------------------------------------------------------	|---------------|
 | RPSWx | Descrição do requisito RSPWx | CSUy, CSUm ... |
-
-### 3.6 Requisitos e Restrições de Desempenho (RDES)
-
-Identificar e descrever os requisitos e restrições de desempenho do software.
-Exemplo:
-
-| Ref.  	|                          Descrição                       	| Caso de Uso |
-|-------	|----------------------------------------------------------	|---------------|
-| RDESx | Descrição do requisito RDESx | CSUy, CSUm ... |
-
-### 3.7 Requisitos e restrições de disponibilidade (RDIS).
-
-Especificar os requisitos de disponibilidade necessários para o software de uma forma global:
-1. Período de disponibilidade: horário comercial, 24 horas por dia, etc.
-2. Período máximo para recuperação do software em caso de falha.
-Devem ser definidos os tipos de falha e a tolerância aceitável para cada tipo de falha. Os tipos de falha podem ser definidos em função dos requisitos funcionais e de dados, mas não se restringem a estes. Por exemplo: a função “Registrar Venda” deve ter um tempo para recuperação de falha de no máximo uma hora (o que significa que esta função não poderá ficar mais do que uma hora indisponível para o usuário em nenhuma circunstância). 
-Exemplo:
-
-| Ref.  	|                          Descrição                       	| Caso de Uso |
-|-------	|----------------------------------------------------------	|---------------|
-| RDISx	| Descrição do requisito RDISx | CSUy, CSUm ... |
-
-### 3.8 Requisitos e Restrições de Segurança (RSEG)
-
-Especificar os requisitos de segurança necessários para controle de acesso ao software. Definir a necessidade, por exemplo, de:
-1. Verificação de senha;
-2. Criptografia de dados;
-3. Registro das operações efetuadas;
-4. Habilitação de funções por perfil de usuário;
-5. Acesso seletivo aos dados e funções.
-Exemplo:
-
-| Ref.  	|              Descrição                      	| Caso de Uso 	|
-|-------	|------------------------------------------	|-------------	|
-| RSEGx | Descrição do requisito RSEGx | CSUy, CSUm ... |
-
-### 3.9 Requisitos e Restrições de Manutenibilidade (RMAN)
-
-Especificar os requisitos que visam facilitar a manutenção posterior do software, tais como:
-1. Requisitos de reutilização (exemplo: uso de implementação orientada a objetos; bibliotecas de classes e padrões de projeto);
-2. Requisitos de modularização (exemplo: valores para métricas de acoplamento entre módulos; máximo de pontos de função por módulo);
-3. Requisitos de configuração (exemplo: regras para controle de versões);
-4. Requisitos de documentação (exemplo: documentação de programa)
-Exemplo:
-
-| Ref.  	|                          Descrição                       	| Caso de Uso |
-|-------	|----------------------------------------------------------	|---------------|
-| RMANx	| Descrição do requisito RMANx | CSUy, CSUm ... |
-
-### 3.10 Requisitos e Restrições de Documentação (RDOC)
-
-Especificar os requisitos de documentação do produto de software que será desenvolvido. 
-Exemplo:
-
-| Ref.  	|                          Descrição                       	| Caso de Uso |
-|-------	|----------------------------------------------------------	|---------------|
-| RDOCx | Descrição do requisito RDOCx | CSUy, CSUm ... |
 
 ## 4. Casos de Uso e Requisitos Funcionais
 ---------------------------------
@@ -352,42 +257,6 @@ Exemplo:
 | Ref.     |                          Descrição                       	| Categoria | Prioridade |
 |-------|----------------------------------------------------------|---------------|---------------|
 | RFUN 11.1 | Quando as configurações do metrônomo são definidas, o usuário inicia as batidas. | Evidente | Alta|
-
-## 5. Requisitos Futuros (RFUT)
----------------------------------
-
-Este espaço é reservado para o surgimento de futuros requisitos.
-
-| Ref.|   Descrição | Caso de Uso |
-|-------|------------|---------------|
-|  | |   |
-
-## 6. Referências cruzadas complementares 
----------------------------------------------
-
-Nesta seção são colocadas algumas referências cruzadas que podem ajudar o rastreamento futuro dos requisitos. Estes mapeamentos podem ser feitos em forma de matrizes de rastreabilidade como mostram os exemplos a seguir:
-
-|Requisitos Funcionais | Requisitos Não-Funcionais|
-|---------------------|--------------------------|
-|Colocar identificação do requisito funcional|Colocar a identificação do requisito não funcional vinculado|
-
-|Requisitos Funcionais | Origem do Requisito |
-|---------------------|--------------------------|
-| Colocar identificação dos requisitos funcionais | Colocar a origem do requisito. Pode ser uma entrevista, um questionário, ou outra técnica qualquer de elicitação de requisito aplicada. |
-
-|Requisitos Não-Funcionais | Origem do Requisito |
-|---------------------|--------------------------|
-| Colocar identificação dos requisitos não-funcionais | Colocar a origem do requisito. Pode ser uma entrevista, um questionário, ou outra técnica qualquer de elicitação de requisito aplicada. |
-
-| Casos de Uso | Origem do Caso de Uso |
-|---------------------|--------------------------|
-| Colocar a identificação do requisito funcional | 
-Colocar a origem do caso de uso. Pode ser uma entrevista, um questionário, ou outra técnica  qualquer de elicitação de requisito aplicada. |
-
-## 7. Aprovação Formal 
----------------------------------------------
-
-Por meio deste documento, confirmo que os requisitos aqui presentes abordam todas as áreas do sistema a ser desenvolvido e de requisitos futuros (sejam elas melhorias ou novas funcionalidades), de forma a desenvolver um software com qualidade e segurança. Confirmo também que este documento aborda todos os requisitos e funcionalidades de forma correta e clara ao que foi solicitado e ao que foi dito e pedido nas entrevistas, etnografias e questionários. Confirmo também que não há requisitos extras neste documento, todos os requisitos aqui citados foram requeridos e atendem à alguma funcionalidade necessária.
 
 ## 8. Bibliografia
 ---------------------------------------------
