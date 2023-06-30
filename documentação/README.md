@@ -8,9 +8,9 @@ Salão de Festas Patati Patatá
 * 1. [Introdução](#1-introdução)	
     * 1.1 [Objetivos](#11-objetivos)	
     * 1.2 [Público Alvo](#12-público-alvo) 
-* 2. [Descrição do problema e do sistema](#2-descrição-do-problema-e-do-sistema) ********
+* 2. [Descrição do problema e do sistema](#2-descrição-do-problema-e-do-sistema)
     * 2.1 [Identificação e missão do Sistema](#21-identificação-e-missão-do-sistema)	
-    * 2.2 [Domínio do problema e contexto de sua aplicação](#22-domínio-do-problema-e-contexto-de-sua-aplicação) ********
+    * 2.2 [Domínio do problema e contexto de sua aplicação](#22-domínio-do-problema-e-contexto-de-sua-aplicação)
     * 2.3 [Descrição dos interessados do sistema](#23-descrição-dos-interessados-do-sistema)	
 * 3. [Requisitos e restrições não funcionais](#3-requisitos-e-restrições-não-funcionais)
     * 3.1 [Requisitos e Restrições de Usabilidade (RUS)](#31-requisitos-e-restrições-de-usabilidade-rus)			
@@ -49,7 +49,6 @@ que pode ser adaptada e implementada para atender às necessidades específicas 
 
 ## 2. Descrição do problema e do sistema
 -----------------------------------------
-Nesta seção o sistema objeto da especificação de requisitos deve ser descrito. O domínio do problema que deverá ser resolvido pelo sistema deve ser explicado e também as características específicas do problema no contexto da empresa em que o sistema deverá ser utilizado. As subseções seguintes podem ser colocadas no documento EOR para separar cada conteúdo específico, mas também pode ser usado um estilo de texto sem separação de subseções desde que todo o conteúdo seja coberto.
 
 O problema abordado neste projeto interdisciplinar é a falta de um sistema de gestão eficiente 
 para um salão de festas. No qual enfrenta dificuldades na organização de gerenciamento de clientes,
@@ -70,10 +69,6 @@ a realização de consultas, fornecendo informações precisas e atualizadas par
 -	A missão do Sistema de Gestão do Salão de Festas Patati Patatá é proporcionar uma solução eficiente e automatizada para a gestão das atividades do salão, visando aprimorar a organização, o controle e a satisfação dos clientes. O sistema tem como objetivo principal facilitar o gerenciamento de reservas, clientes, eventos e pagamentos, otimizando os processos operacionais e fornecendo informações precisas para a tomada de decisões gerenciais.
 
 ### 2.2 Domínio do problema e contexto de sua aplicação
-
-A descrição do domínio do problema deve complementar e detalhar a visão geral do domínio do problema identificando o contexto deste problema no ambiente alvo (ambiente do cliente alvo).
-Exemplo:
-Suponha que o domínio do problema seja a venda de produtos em um comércio varejista. Esta seção deverá explicar em que consiste o problema de vender produtos em uma empresa que atua no comércio varejista, ou seja, descrever genericamente quais são os processos de negócio envolvidos e seus objetivos. Além disso, o problema deve ser contextualizado mostrando as características específicas do problema na empresa alvo.
 
 O domínio do problema abordado neste projeto é a gestão de um salão de festas chamado Patati Patatá, situado no contexto do ramo de eventos e entretenimento. O objetivo é desenvolver um sistema de gestão que automatize e melhore os processos envolvidos na administração do salão, atendendo às necessidades específicas dessa empresa.
 
