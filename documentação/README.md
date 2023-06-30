@@ -7,12 +7,10 @@ Salão de Festas Patati Patatá
 
 * 1. [Introdução](#1-introdução)	
     * 1.1 [Objetivos](#11-objetivos)	
-    * 1.2 [Público Alvo](#12-público-alvo)	
-    * 1.3 [Organização do documento](#13-organização-do-documento)	
-    * 1.4 [Definição de Siglas e Nomenclaturas](#14-definição-de-siglas-e-nomenclaturas)	
-* 2. [Descrição do problema e do sistema](#2-descrição-do-problema-e-do-sistema)
+    * 1.2 [Público Alvo](#12-público-alvo) 
+* 2. [Descrição do problema e do sistema](#2-descrição-do-problema-e-do-sistema) ********
     * 2.1 [Identificação e missão do Sistema](#21-identificação-e-missão-do-sistema)	
-    * 2.2 [Domínio do problema e contexto de sua aplicação](#22-domínio-do-problema-e-contexto-de-sua-aplicação)	
+    * 2.2 [Domínio do problema e contexto de sua aplicação](#22-domínio-do-problema-e-contexto-de-sua-aplicação) ********
     * 2.3 [Descrição dos interessados do sistema](#23-descrição-dos-interessados-do-sistema)	
 * 3. [Requisitos e restrições não funcionais](#3-requisitos-e-restrições-não-funcionais)
     * 3.1 [Requisitos e Restrições de Usabilidade (RUS)](#31-requisitos-e-restrições-de-usabilidade-rus)			
@@ -51,15 +49,6 @@ Este documento tem os seguintes públicos alvo:
 desse projeto como uma solução de software para auxiliar na gestão de suas operações. O documento apresenta uma proposta de sistema
 que pode ser adaptada e implementada para atender às necessidades específicas de tais empresas.
 
-### 1.3 Organização do documento
-
-Descrever suscintamente a organização do documento em seções e o conteúdo de cada seção. 
-Não há necessidade de descer ao nível de subseções.
-
-### 1.4 Definição de Siglas e Nomenclaturas
-
-Definir e explicar sucintamente siglas e nomencalturas utilizadas neste documento.
-
 ## 2. Descrição do problema e do sistema
 -----------------------------------------
 Nesta seção o sistema objeto da especificação de requisitos deve ser descrito. O domínio do problema que deverá ser resolvido pelo sistema deve ser explicado e também as características específicas do problema no contexto da empresa em que o sistema deverá ser utilizado. As subseções seguintes podem ser colocadas no documento EOR para separar cada conteúdo específico, mas também pode ser usado um estilo de texto sem separação de subseções desde que todo o conteúdo seja coberto.
@@ -73,7 +62,6 @@ O sistema proposto oferece registro de informações relevantes, como dados pess
 datas e horários de eventos, detalhes sobre os serviços contratados, histórico de pagamentos e 
 outras informações relacionadas à gestão do salão de festas. Além disso, o sistema possibilitará
 a realização de consultas, fornecendo informações precisas e atualizadas para a tomada de decisões gerenciais.
-
 
 ### 2.1 Identificação e missão do Sistema
 
@@ -116,9 +104,9 @@ Descrever os perfis de cada interessado envolvido com o sistema.
 
 | Interessado(s) 	| Descrição 	|
 |:----------------:	|---------	|
-| Administrador do sistema |  |
-| Cliente |  |
-| Fornecedor |  |
+| Administrador do sistema | É o responsável pela operação e manutenção do sistema de gestão do salão de festas. Esse perfil é encarregado de configurar e gerenciar o sistema, realizar tarefas de manutenção, garantir a segurança dos dados e tomar decisões relacionadas ao sistema. |
+| Cliente | Refere-se às pessoas ou organizações que contratam os serviços do salão de festas. Esse perfil utiliza o sistema para fazer reservas, fornecer informações pessoais, selecionar serviços e fornecedores, acompanhar o histórico de pagamentos e acessar informações sobre eventos anteriores. |
+| Fornecedor | São as empresas ou indivíduos que oferecem serviços para o salão de festas, como catering, decoração, música, fotografia, entre outros. Os fornecedores utilizam o sistema para acessar informações relevantes, como detalhes dos eventos contratados, datas, horários e requisitos específicos. |
 
 ## 3. Requisitos e restrições não funcionais 
 --------------------------------------------
@@ -135,18 +123,6 @@ Exemplo:
 | RINFx | Descrição do requisito RINFx  | CSUy, CSUm ...  |
 
 Estes requisitos de informação são importantes para verificar a qualidade da modelagem de dados que for feita.       
-
-### 3.2 Requisitos e Restrições de Plataforma de Software (RPSW)
-
-Se o software tiver que ser executado em plataformas de software específicas, essas plataformas de software deverão ser definidas:
-1. Sistema Operacional: identificar e descrever o sistema operacional em que o software deverá ser executado;
-2. Softwares Básicos: identificar SGBD, linguagem de programação, ferramentas CASE e outros.
-Se houver mais de uma plataforma de software, deve-se especificar qual a plataforma principal e em que situações as outras plataformas podem ser utilizadas.
-Exemplo:
-
-| Ref.  	|                          Descrição                       	| Caso de Uso |
-|-------	|----------------------------------------------------------	|---------------|
-| RPSWx | Descrição do requisito RSPWx | CSUy, CSUm ... |
 
 ## 4. Casos de Uso e Requisitos Funcionais
 ---------------------------------
@@ -258,12 +234,12 @@ Exemplo:
 |-------|----------------------------------------------------------|---------------|---------------|
 | RFUN 11.1 | Quando as configurações do metrônomo são definidas, o usuário inicia as batidas. | Evidente | Alta|
 
-## 8. Bibliografia
+## 6. Bibliografia
 ---------------------------------------------
 
 [1] Ronaldo Lopes de Oliveira, EOR – Modelo de Documento de Especificação de Objetivos e Requisitos de Software, Versão 2.0, abril de 2014.
 Meta-Modelo usado como guia para definição do formato e conteúdo deste documento.
 
-## 9. Anexos 
+## 7. Anexos 
 ---------------------------------------------
 
