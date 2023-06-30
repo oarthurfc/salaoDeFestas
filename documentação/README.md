@@ -28,10 +28,8 @@ realizar a gestão de um salão de festas.
 
 Neste documento, serão apresentados detalhes sobre a estrutura do código, as funcionalidades 
 implementadas, as principais bibliotecas utilizadas e a lógica por trás das diferentes partes 
-do programa. Além disso, serão fornecidas instruções para compilar e executar o código, bem 
-como informações sobre possíveis melhorias e futuras implementações. Ao longo deste documento,
-o sistema desenvolvido será descrito de forma clara e objetiva, destacando suas principais 
-características e benefícios.
+do programa. Ao longo deste documento,o sistema desenvolvido será descrito de forma clara e 
+objetiva, destacando suas principais características e benefícios.
 
 ### 1.1 Objetivos
 
@@ -111,18 +109,20 @@ Descrever os perfis de cada interessado envolvido com o sistema.
 ## 3. Requisitos e restrições não funcionais 
 --------------------------------------------
 
-Elaborar uma lista de todos os requisitos não funcionais. Considerar requisitos de informação, de interface, de projeto, de arquitetura de software, de plataforma de hardware, de plataforma de software, de plataforma de comunicação, de desempenho, de disponibilidade, de segurança, de manutenibilidade, de portabilidade e de documentação. A lista poderá ser dividida por tipo de requisito, mas é importante que os requisitos tenham uma identificação única para que possam ser referenciados sem ambigüidades no futuro.
+### 3.1 Requisitos e Usabilidade
 
-### 3.1 Requisitos e Restrições de Usabilidade (RUS)
+| Entradas |       Classes validas   	|   Resultado esperado 	|
+|------	|------------------------------	|-----------------	|
+| Numeros Inteiros | Opção escolhida entre X a Y sendo que X e Y são apresentados como forma de menu intuitiva  | Acessar a função da opção digitada |
 
-Elaborar uma lista de todas as necessidades de informação que o software não pode deixar de atender. Esta lista deverá ser classificada em informações cadastrais e informações gerenciais. Por exemplo, para um software de vendas existem, entre outras, as seguintes necessidades de informação:
-Exemplo:
+#### Exemplo:
 
-| Ref. 	|              Descrição                                               	| Caso de Uso     	|
-|------	|-------------------------------------------------------------------	|-----------------	|
-| RINFx | Descrição do requisito RINFx  | CSUy, CSUm ...  |
+![image](https://github.com/oarthurfc/salaoDeFestas/assets/113954562/81308b5c-2084-4360-a597-058e9a9a9c6f)
 
-Estes requisitos de informação são importantes para verificar a qualidade da modelagem de dados que for feita.       
+
+### 3.2 Restrição de tecnologia
+
+
 
 ## 4. Casos de Uso e Requisitos Funcionais
 ---------------------------------
@@ -234,12 +234,12 @@ Estes requisitos de informação são importantes para verificar a qualidade da 
 |-------|----------------------------------------------------------|---------------|---------------|
 | RFUN 11.1 | Quando as configurações do metrônomo são definidas, o usuário inicia as batidas. | Evidente | Alta|
 
-## 6. Bibliografia
+## 5. Bibliografia
 ---------------------------------------------
 
 [1] Ronaldo Lopes de Oliveira, EOR – Modelo de Documento de Especificação de Objetivos e Requisitos de Software, Versão 2.0, abril de 2014.
 Meta-Modelo usado como guia para definição do formato e conteúdo deste documento.
 
-## 7. Anexos 
+## 6. Anexos 
 ---------------------------------------------
 
