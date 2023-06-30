@@ -58,9 +58,9 @@ Este documento tem os seguintes objetivos:
 ### 1.2 Público Alvo
 
 Este documento tem os seguintes públicos alvo:	
--	Estudantes de Engenharia de Software: O projeto foi desenvolvido como parte do curso de Engenharia de Software, portanto, é direcionado aos estudantes dessa área que desejam aprender e aprimorar suas habilidades em programação na linguagem C;
--	Professores e acadêmicos de disciplinas relacionadas: Além dos estudantes, o projeto também pode ser interessante para professores e acadêmicos que lecionam ou pesquisam disciplinas relacionadas à engenharia de software, algoritmos, estrutura de dados e desenvolvimento de software;
--	Profissionais da área de desenvolvimento de software: O projeto pode atrair profissionais que trabalham na área de desenvolvimento de software, especialmente aqueles que têm interesse em programação na linguagem C e em soluções de gestão de negócios.
+-	Empresas do ramo de salões de festas: Empresas do setor de eventos, especificamente salões de festas, podem se beneficiar
+desse projeto como uma solução de software para auxiliar na gestão de suas operações. O documento apresenta uma proposta de sistema
+que pode ser adaptada e implementada para atender às necessidades específicas de tais empresas.
 
 ### 1.3 Organização do documento
 
@@ -127,9 +127,9 @@ Descrever os perfis de cada interessado envolvido com o sistema.
 
 | Interessado(s) 	| Descrição 	|
 |:----------------:	|---------	|
-| Estudantes de Engenharia de Software | O projeto foi desenvolvido como parte do curso de Engenharia de Software, portanto, é direcionado aos estudantes dessa área que desejam aprender e aprimorar suas habilidades em programação na linguagem C |
-| Professores e acadêmicos de disciplinas relacionadas | Além dos estudantes, o projeto também pode ser interessante para professores e acadêmicos que lecionam ou pesquisam disciplinas relacionadas à engenharia de software, algoritmos, estrutura de dados e desenvolvimento de software |
-| Profissionais da área de desenvolvimento de software | O projeto pode atrair profissionais que trabalham na área de desenvolvimento de software, especialmente aqueles que têm interesse em programação na linguagem C e em soluções de gestão de negócios |
+| Administrador do sistema |  |
+| Cliente |  |
+| Fornecedor |  |
 
 ## 3. Requisitos e restrições não funcionais 
 --------------------------------------------
