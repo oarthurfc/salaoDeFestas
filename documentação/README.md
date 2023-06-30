@@ -36,33 +36,36 @@ Salão de Festas Patati Patatá
 
 ## 1. Introdução
 
-O presente documento apresenta um detalhamento de um código em C que permitirá aos usuários realizar a gestão de um salão de festas.
+O presente documento apresenta um detalhamento de um código em C que permitirá aos usuários 
+realizar a gestão de um salão de festas.
 
-Neste documento, serão apresentados detalhes sobre a estrutura do código, as funcionalidades implementadas, as principais bibliotecas 
-utilizadas e a lógica por trás das diferentes partes do programa. Além disso, serão fornecidas instruções para compilar e executar o 
-código, bem como informações sobre possíveis melhorias e futuras implementações. Ao longo deste documento, o sistema desenvolvido será 
-descrito de forma clara e objetiva, destacando suas principais características e benefícios.
+Neste documento, serão apresentados detalhes sobre a estrutura do código, as funcionalidades 
+implementadas, as principais bibliotecas utilizadas e a lógica por trás das diferentes partes 
+do programa. Além disso, serão fornecidas instruções para compilar e executar o código, bem 
+como informações sobre possíveis melhorias e futuras implementações. Ao longo deste documento,
+o sistema desenvolvido será descrito de forma clara e objetiva, destacando suas principais 
+características e benefícios.
 
 ### 1.1 Objetivos
 
 Este documento tem os seguintes objetivos:	
-•	Apresentar um detalhamento de um código em C para a gestão de um salão de festas;
-•	Descrever o projeto desenvolvido para as disciplinas Fundamentos de Engenharia de Software e Algoritmo e Estrutura de Dados 1;	
-•	Informar sobre o propósito do projeto, que é criar um programa de cadastro de dados em C para o salão de festas Patati Patatá;	
-•	Destacar as funcionalidades implementadas no programa, como o gerenciamento de clientes, fornecedores, festas e pagamentos;	
-•	Apresentar o documento de forma clara e objetiva, facilitando a compreensão e o uso do código desenvolvido;
+-	Apresentar um detalhamento de um código em C para a gestão de um salão de festas;
+-	Descrever o projeto desenvolvido para as disciplinas Fundamentos de Engenharia de Software e Algoritmo e Estrutura de Dados 1;	
+-	Informar sobre o propósito do projeto, que é criar um programa de cadastro de dados em C para o salão de festas Patati Patatá;	
+-	Destacar as funcionalidades implementadas no programa, como o gerenciamento de clientes, fornecedores, festas e pagamentos;	
+-	Apresentar o documento de forma clara e objetiva, facilitando a compreensão e o uso do código desenvolvido.
 
 ### 1.2 Público Alvo
 
 Este documento tem os seguintes públicos alvo:	
-•.	Estudantes de Engenharia de Software: O projeto foi desenvolvido como parte do curso de Engenharia de Software, portanto, é direcionado aos estudantes dessa área que desejam aprender e aprimorar suas habilidades em programação na linguagem C;
-•.	Professores e acadêmicos de disciplinas relacionadas: Além dos estudantes, o projeto também pode ser interessante para professores e acadêmicos que lecionam ou pesquisam disciplinas relacionadas à engenharia de software, algoritmos, estrutura de dados e desenvolvimento de software;
-
-Identificar o público alvo do documento, isto é, todos os perfis de pessoas que terão interesse na sua leitura. Os interesses de cada perfil na leitura do documento também devem ser descritos.
+-	Estudantes de Engenharia de Software: O projeto foi desenvolvido como parte do curso de Engenharia de Software, portanto, é direcionado aos estudantes dessa área que desejam aprender e aprimorar suas habilidades em programação na linguagem C;
+-	Professores e acadêmicos de disciplinas relacionadas: Além dos estudantes, o projeto também pode ser interessante para professores e acadêmicos que lecionam ou pesquisam disciplinas relacionadas à engenharia de software, algoritmos, estrutura de dados e desenvolvimento de software;
+-	Profissionais da área de desenvolvimento de software: O projeto pode atrair profissionais que trabalham na área de desenvolvimento de software, especialmente aqueles que têm interesse em programação na linguagem C e em soluções de gestão de negócios.
 
 ### 1.3 Organização do documento
 
-Descrever suscintamente a organização do documento em seções e o conteúdo de cada seção. Não há necessidade de descer ao nível de subseções.
+Descrever suscintamente a organização do documento em seções e o conteúdo de cada seção. 
+Não há necessidade de descer ao nível de subseções.
 
 ### 1.4 Definição de Siglas e Nomenclaturas
 
@@ -71,11 +74,26 @@ Definir e explicar sucintamente siglas e nomencalturas utilizadas neste document
 ## 2. Descrição do problema e do sistema
 -----------------------------------------
 
+O problema abordado neste projeto interdisciplinar é a falta de um sistema de gestão eficiente 
+para um salão de festas. No qual enfrenta dificuldades na organização de gerenciamento de clientes,
+controle de festas e pagamentos. A ausência de um sistema automatizado resulta em processos manuais, 
+propensos a erros e ineficiências.
+
+O sistema proposto oferece registro de informações relevantes, como dados pessoais dos clientes, 
+datas e horários de eventos, detalhes sobre os serviços contratados, histórico de pagamentos e 
+outras informações relacionadas à gestão do salão de festas. Além disso, o sistema possibilitará
+a realização de consultas, fornecendo informações precisas e atualizadas para a tomada de decisões gerenciais.
+
 Nesta seção o sistema objeto da especificação de requisitos deve ser descrito. O domínio do problema que deverá ser resolvido pelo sistema deve ser explicado e também as características específicas do problema no contexto da empresa em que o sistema deverá ser utilizado. As subseções seguintes podem ser colocadas no documento EOR para separar cada conteúdo específico, mas também pode ser usado um estilo de texto sem separação de subseções desde que todo o conteúdo seja coberto.
 
 ### 2.1 Identificação e missão do Sistema
 
-Identificar o sistema objeto da especificação de requisitos e definir em poucas palavras qual é a missão do sistema que está sendo considerado neste documento.
+	Identificação do Sistema:
+	Nome: Sistema de Gestão do Salão de Festas Patati Patatá 
+	Versão: 1.0
+
+	Missão do Sistema:
+	A missão do Sistema de Gestão do Salão de Festas Patati Patatá é proporcionar uma solução eficiente e automatizada para a gestão das atividades do salão, visando aprimorar a organização, o controle e a satisfação dos clientes. O sistema tem como objetivo principal facilitar o gerenciamento de reservas, clientes, eventos e pagamentos, otimizando os processos operacionais e fornecendo informações precisas para a tomada de decisões gerenciais.
 
 ### 2.2 Domínio do problema e contexto de sua aplicação
 
