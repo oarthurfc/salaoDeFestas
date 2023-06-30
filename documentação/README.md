@@ -117,7 +117,11 @@ Descrever os perfis de cada interessado envolvido com o sistema.
 
 ### 3.2 Restrição de tecnologia
 
+O sistema de gestão do salão de festas apresenta as seguintes restrições de tecnologia:
 
+- 	Reconhecimento limitado do strptime: Alguns compiladores podem não reconhecer a função strptime, utilizada para converter strings em formato de data/hora em valores estruturados. É importante verificar a compatibilidade do compilador utilizado para garantir o correto funcionamento dessa funcionalidade.
+- 	Correspondência exata do nome do cliente: Para pesquisar um cliente pelo nome, o usuário precisa inserir o nome exatamente como foi cadastrado no sistema. Não são realizadas correspondências parciais ou insensíveis a maiúsculas/minúsculas. Essa restrição deve ser considerada ao realizar consultas de clientes por nome.
+- 	Validação do telefone: O sistema requer que os números de telefone informados pelos clientes sejam válidos. Embora não seja especificado como essa validação é feita, é importante garantir que os números de telefone fornecidos estejam em um formato correto e sejam aceitos pelo sistema.
 
 ## 4. Casos de Uso e Requisitos Funcionais
 ---------------------------------
