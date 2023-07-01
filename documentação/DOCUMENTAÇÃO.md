@@ -14,12 +14,13 @@ Salão de Festas Patati Patatá
     * 2.3 [Descrição dos interessados do sistema](#23-descrição-dos-interessados-do-sistema)	
 * 3. [Requisitos e restrições não funcionais](#3-requisitos-e-restrições-não-funcionais)
     * 3.1 [Requisitos e Usabilidade](#31-requisitos-e-usabiliade)			
-    * 3.2 [Restrição de tecnologia](#35-restrição-de-tecnologia)	
-* 4. [Casos de Uso e Requisitos Funcionais](#4-casos-de-uso-e-requisitos-funcionais)	
-    * 4.1 [Diagramas de Caso de Uso e Lista de casos de uso](#41-diagramas-de-caso-de-uso-e-lista-de-casos-de-uso)	
-    * 4.2 [Descrição de Casos de Uso](#42-descrição-de-casos-de-uso)	
-* 5. [Bibliografia](#5-bibliografia)	
-* 6. [Anexos](#6-anexos)	
+    * 3.2 [Restrição de tecnologia](#32-restrição-de-tecnologia)
+* 4. [Backlog do Produto](#4-backlog-do-produto) 
+* 5. [Casos de Uso e Requisitos Funcionais](#5-casos-de-uso-e-requisitos-funcionais)	
+    * 5.1 [Diagramas de Caso de Uso e Lista de casos de uso](#51-diagramas-de-caso-de-uso-e-lista-de-casos-de-uso)	
+    * 5.2 [Descrição de Casos de Uso](#52-descrição-de-casos-de-uso)	
+* 6. [Bibliografia](#6-bibliografia)	
+* 7. [Anexos](#5-anexos)	
 
 ## 1. Introdução
 
@@ -123,14 +124,19 @@ O sistema de gestão do salão de festas apresenta as seguintes restrições de 
 - 	Correspondência exata do nome do cliente: Para pesquisar um cliente pelo nome, o usuário precisa inserir o nome exatamente como foi cadastrado no sistema. Não são realizadas correspondências parciais ou insensíveis a maiúsculas/minúsculas. Essa restrição deve ser considerada ao realizar consultas de clientes por nome.
 - 	Validação do telefone: O sistema requer que os números de telefone informados pelos clientes sejam válidos. Embora não seja especificado como essa validação é feita, é importante garantir que os números de telefone fornecidos estejam em um formato correto e sejam aceitos pelo sistema.
 
-## 4. Casos de Uso e Requisitos Funcionais
+## 4. Backlog do Produto
+
+- ![image](https://github.com/oarthurfc/salaoDeFestas/assets/113954562/8d659746-0ad6-4266-84f2-321642edce98)
+- ![image](https://github.com/oarthurfc/salaoDeFestas/assets/113954562/0e480e01-be07-436e-9421-08bf4c648981)
+
+## 5. Casos de Uso e Requisitos Funcionais
 ---------------------------------
 
-### 4.1 Diagramas de Caso de Uso e Lista de casos de uso
+### 5.1 Diagramas de Caso de Uso e Lista de casos de uso
 
 ![](http://postimg.org/image/skrz04i6x/)
 
-### 4.2 Descrição de Casos de Uso
+### 5.2 Descrição de Casos de Uso
 
 #### 1- Cadastrar:
 Descrição: Esse caso de uso permite ao usuário registrar um novo cliente ou um fornecedor ou uma festa no sistema.
@@ -194,15 +200,14 @@ Ator Principal: Administrador do sistema.
 -	3.5 Dependendo do relatório buscado será solicitado informações para serem digitadas.
 -	4. O sistema valida e apresenta o relatório do que foi solicitado e retoma ao topico 2.
 
-## 5. Bibliografia
+## 6. Bibliografia
 ---------------------------------------------
 
 [1] Ronaldo Lopes de Oliveira, EOR – Modelo de Documento de Especificação de Objetivos e Requisitos de Software, Versão 2.0, abril de 2014.
 Meta-Modelo usado como guia para definição do formato e conteúdo deste documento.
 
-## 6. Anexos 
+## 7. Anexos 
 ---------------------------------------------
 -   [Clique aqui](https://www.youtube.com/watch?v=pWXVsG4rj7k0) para ver o video apresentando o sistema.
 -   [Clique aqui](https://docs.google.com/document/d/1hvlVd_w5hOYzA_fIY5bYgsYL1WLetDSQTHfUy5AL5YE/edit?usp=sharing) para ver casos de teste.
--   [Clique aqui](https://github.com/oarthurfc/salaoDeFestas/blob/main/documenta%C3%A7%C3%A3o/RELAT%C3%93RIO.md) para ver o relatório do backlog do sistema.
 
