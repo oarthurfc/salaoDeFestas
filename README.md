@@ -60,7 +60,7 @@ O projeto está desenvolvido utilizando as seguinte tecnologia:
 
 ```bash
 # Baixar o Zip do projeto
-
+Repositório no GitHub > Clone > Download ZIP
 # Utilizar o programa Code::Blocks e abrir arquivo:
 salaoDeFestas.cbp
 ---
