@@ -132,106 +132,73 @@ O sistema de gestão do salão de festas apresenta as seguintes restrições de 
 
 ### 4.2 Descrição de Casos de Uso
 
-**CSU1**- Definir compasso
-	Ator(es): Usuário
-	Descrição: Neste caso de uso, o usuário define a divisão quantitativa de pulsos e repousos em uma composição musical.
-	Requisitos Funcionais:
+####**1**- Cadastrar:
+Descrição: Esse caso de uso permite ao usuário registrar um novo cliente ou um fornecedor ou uma festa no sistema.
 
-| Ref.     |                          Descrição                       	| Categoria | Prioridade |
-|-------|----------------------------------------------------------|---------------|---------------|
-| RFUN 1.1 | Possibilitar ao usuário definir os padrões de pulsos e repousos. | Evidente |Alta  |
+Ator Principal: Administrador do sistema.
 
-**CSU2**- Definir velocidade do compasso do metrônomo
-	Ator(es): Usuário
-	Descrição: Este caso de uso ocorre quando o usuário precisa modificar a velocidade dos batimentos do metrônomo, sendo estes medidos em BPM (batidas por minuto).
-	Requisitos Funcionais:
+#####**Fluxo básico:**
 
-| Ref.     |                          Descrição                       	| Categoria | Prioridade |
-|-------|----------------------------------------------------------|---------------|---------------|
-| RFUN 2.1 | Possibilitar ao usuário modificar a velocidade com que as batidas ocorrem antes de iniciar as batidas. | Evidente |Alta  |
-| RFUN 2.2 | O usuário pausa os batimentos para regular o intervalo das batidas | Oculta |Média  |
+-	1. O administrador seleciona a opção de cadastrar no menu.
+-	2. O sistema solicita se o cadastro é para cliente, fornecedor ou para festa ou se quer sair do menu.
+-	3. O administrador insere o objetivo.
+-	4. O sistema valida e entra na função de cadastro do que foi solicitado.
+-	5. O sistema solicita informações sobre o topico escolhido.
+-	6. O sistema exibe uma mensagem de confirmação do cadastro.
 
-**CSU3**- Definir som do compasso
-	Ator(es): Usuário
-	Descrição: O usuário tem a possibilidade de selecionar alguns sons pré-definidos. Estes sons estarão já no “.apk”, de forma que o usuário possa selecionar o que mais lhe agradar. 
-	Requisitos Funcionais:
+#####**Fluxo alternativo:**
 
-| Ref.     |                          Descrição                       	| Categoria | Prioridade |
-|-------|----------------------------------------------------------|---------------|---------------|
-| RFUN 3.1 | Possibilitar ao usuário selecionar uma melodia de batida para tocar em um loop na velocidade selecionada. | Evidente |Alta  |
+No passo 5, se houver algum erro de validação nas informações inseridas, o sistema exibe uma mensagem de erro e solicita ao administrador que corrija as informações incorretas.
 
-**CSU4**- Colocar timer de funcionamento do metrônomo
-	Ator(es): Usuário
-	Descrição: O usuário tem a possibilidade de definir um tempo de duração das batidas.
-	Requisitos Funcionais:
+####**2**- Pesquisar:
+Descrição: Esse caso de uso permite ao usuário pesquisar detalhes de clientes, fornecedor ou uma festa no sistema.
 
-| Ref.     |                          Descrição                       	| Categoria | Prioridade |
-|-------|----------------------------------------------------------|---------------|---------------|
-| RFUN 4.1 | Possibilitar que o usuário defina o tempo de duração das batidas, sendo este medido em minutos. | Evidente | Média |
-| RFUN 4.2 | O usuário pode optar por pausar os batimentos antes do tempo pré-determinado. | Evidente | Média |
+Ator Principal: Administrador do sistema.
 
-**CSU5**- Escolher figura rítmica
-	Ator(es): Usuário
-	Descrição: A figura rítmica é uma parte fundamental para o funcionamento de um metrônomo, sendo este o responsável por definir a duração do compasso.
-	Requisitos Funcionais:
+#####**Fluxo básico:**
 
-| Ref.     |                          Descrição                       	| Categoria | Prioridade |
-|-------|----------------------------------------------------------|---------------|---------------|
-| RFUN 5.1 | O usuário tem a opção de selecionar uma figura  rítmica para definir o compasso. | Evidente | Alta|
+-	1. O administrador seleciona a opção de pesquisar no menu.
+-	2. O sistema solicita se o quer pesquisar clientes, fornecedores ou uma festa ou se quer sair do menu.
+-	3. O administrador insere o objetivo.
+-	4. O sistema valida e entra na função de pesquia do que foi solicitado.
+-	5. O sistema solicita informações sobre o codigo do qual é a pesquisa .
+-	6. O sistema exibe os dados encontrados e retoma ao topico 2.
 
-**CSU6**- Visualizar informações sobre o aplicativo
-	Ator(es): Usuário
-	Descrição: Dentro das configurações será disponibilizado para o usuário algumas informações a respeito do sistema “DroidMetronome”. 
-	Requisitos Funcionais:
+#####**Fluxo alternativo:**
 
-| Ref.     |                          Descrição                       	| Categoria | Prioridade |
-|-------|----------------------------------------------------------|---------------|---------------|
-| RFUN 6.1 | O usuário tem a possibilidade de consultar as informações a respeito do sistema “DroidMetronome”. | Evidente | Média |
+No passo 5, se houver algum erro de validação nas informações inseridas, o sistema exibe uma mensagem de erro e solicita ao administrador que corrija as informações incorretas.
 
-**CSU7**- Definir modo vibratório
-	Ator(es): Usuário
-	Descrição: O sistema contará com a possibilidade de além dos sons das batidas, o aparelho poderá vibrar de forma a acompanhar os batimentos.
-	Requisitos Funcionais:
+####**3**- Atualizar contrato:
+Descrição: Esse caso de uso permite ao usuário atualizar o contrato no sistema.
 
-| Ref.     |                          Descrição                       	| Categoria | Prioridade |
-|-------|----------------------------------------------------------|---------------|---------------|
-| RFUN 7.1 | Possibilitar que o usuário ative o modo vibratório, onde o aparelho vibrará a cada batimento. | Evidente | Baixa |
+Ator Principal: Administrador do sistema.
 
-**CSU8**- Definir modo LED
-	Ator(es): Usuário
-	Descrição: Descrição: O sistema contará com a possibilidade de além dos sons das batidas e das vibrações do aparelho, o aparelho poderá acender e desligar a luz LED do aparelho de forma a acompanhar os batimentos.
-	Requisitos Funcionais:
+#####**Fluxo básico:**
 
-| Ref.     |                          Descrição                       	| Categoria | Prioridade |
-|-------|----------------------------------------------------------|---------------|---------------|
-| RFUN 8.1 | Possibilitar que o usuário ative o modo LED, onde o aparelho acenderá e deligará a luz LED do aparelho a cada batimento. | Evidente | Baixa |
+-	1. O administrador seleciona a opção de atualizar contrato no menu.
+-	2. O sistema solicita o codigo do contrato que foi gerado ao cadastrar uma festa.
+-	3. O administrador insere o novo status do contrato.
+-	4. O sistema valida e arquiva os status do contrato.
+-	5. O sistema exibe atualização com sucesso e retoma ao menu principal.
 
-**CSU9**- Definir modo Auto-Lock
-	Ator(es): Usuário
-	Descrição: Durante a reprodução do aplicativo, o usuário tem a opção de bloquear o aplicativo para que a tela não seja bloqueada.
-	Requisitos Funcionais:
+####**4**- Relatorios:
+Descrição: Esse caso de uso permite ao usuário pesquisar relatorios no sistema.
 
-| Ref.     |                          Descrição                       	| Categoria | Prioridade |
-|-------|----------------------------------------------------------|---------------|---------------|
-| RFUN 9.1 | O usuário tem a possibilidade de ativar e desativar o modo Auto-Lock, no qual impede que o sistema entre em modo de descanso. | Evidente | Média|
+Ator Principal: Administrador do sistema.
 
-**CSU10**- Integrar com redes sociais
-	Ator(es): Usuário
-	Descrição: O usuário tem a possibilidade de divulgar que está usando o sistema “DroidMetronome” para as redes sociais como Twitter, Facebook, Whattsapp entre outros.
-	Requisitos Funcionais:
+#####**Fluxo básico:**
 
-| Ref.     |                          Descrição                       	| Categoria | Prioridade |
-|-------|----------------------------------------------------------|---------------|---------------|
-| RFUN 10.1 | O usuário pode compartilhar nas redes sociais que está utilizando o sistema “DroidMetronome”. | Evidente | Média|
+-	1. O administrador seleciona a opção de relatorio no menu.
+-	2. O sistema solicita qual relatorio quer olhar, tendo as seguintes opções: por cliente, data, lista de todos clientes, lista de todos fornecedores, lista de todas as festas, lista de todos os contratos e sair do menu.
+-	3. O administrador insere o objetivo.
+-	4. O sistema valida e entra na função de pesquia do que foi solicitado.
+-	5. O sistema solicita informações sobre o codigo do qual é a pesquisa .
+-	6. O sistema exibe os dados encontrados e retoma ao topico 2.
 
-**CSU11**- Reproduzir compasso
-	Ator(es): Usuário
-	Descrição: Neste caso de uso, inicia-se as batidas do metrônomo com as configurações selecionadas pelo usuário.
-	Requisitos Funcionais:
+#####**Fluxo alternativo:**
 
-| Ref.     |                          Descrição                       	| Categoria | Prioridade |
-|-------|----------------------------------------------------------|---------------|---------------|
-| RFUN 11.1 | Quando as configurações do metrônomo são definidas, o usuário inicia as batidas. | Evidente | Alta|
+No passo 5, se houver algum erro de validação nas informações inseridas, o sistema exibe uma mensagem de erro e solicita ao administrador que corrija as informações incorretas.
+
 
 ## 5. Bibliografia
 ---------------------------------------------
