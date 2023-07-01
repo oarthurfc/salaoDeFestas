@@ -59,12 +59,8 @@ O projeto está desenvolvido utilizando as seguinte tecnologia:
 ## ⌨ Como executar o projeto
 
 ```bash
-# Clonar o repositório
-git clone https://github.com/oarthurfc/salaoDeFestas.git
+# Baixar o Zip do projeto
 
-# Entrar no diretório
-cd codigo
-
-# Utilizar o programa codeblock e abrir arquivo:
+# Utilizar o programa Code::Blocks e abrir arquivo:
 salaoDeFestas.cbp
 ---
