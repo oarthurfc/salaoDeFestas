@@ -13,13 +13,13 @@ Salão de Festas Patati Patatá
     * 2.2 [Domínio do problema e contexto de sua aplicação](#22-domínio-do-problema-e-contexto-de-sua-aplicação)
     * 2.3 [Descrição dos interessados do sistema](#23-descrição-dos-interessados-do-sistema)	
 * 3. [Requisitos e restrições não funcionais](#3-requisitos-e-restrições-não-funcionais)
-    * 3.1 [Requisitos e Restrições de Usabilidade (RUS)](#31-requisitos-e-restrições-de-usabilidade-rus)			
-    * 3.2 [Requisitos e Restrições de Plataforma de Software (RPSW)](#35-requisitos-e-restrições-de-plataforma-de-software-rpsw)	
+    * 3.1 [Requisitos e Usabilidade](#31-requisitos-e-usabiliade)			
+    * 3.2 [Restrição de tecnologia](#35-restrição-de-tecnologia)	
 * 4. [Casos de Uso e Requisitos Funcionais](#4-casos-de-uso-e-requisitos-funcionais)	
     * 4.1 [Diagramas de Caso de Uso e Lista de casos de uso](#41-diagramas-de-caso-de-uso-e-lista-de-casos-de-uso)	
     * 4.2 [Descrição de Casos de Uso](#42-descrição-de-casos-de-uso)	
-* 5. [Bibliografia](#8-bibliografia)	
-* 6. [Anexos](#9-anexos)	
+* 5. [Bibliografia](#5-bibliografia)	
+* 6. [Anexos](#6-anexos)	
 
 ## 1. Introdução
 
@@ -132,12 +132,12 @@ O sistema de gestão do salão de festas apresenta as seguintes restrições de 
 
 ### 4.2 Descrição de Casos de Uso
 
-####**1**- Cadastrar:
+#### 1- Cadastrar:
 Descrição: Esse caso de uso permite ao usuário registrar um novo cliente ou um fornecedor ou uma festa no sistema.
 
 Ator Principal: Administrador do sistema.
 
-#####**Fluxo básico:**
+##### Fluxo básico:
 
 -	1. O administrador seleciona a opção de cadastrar no menu.
 -	2. O sistema solicita se o cadastro é para cliente, fornecedor ou para festa ou se quer sair do menu.
@@ -146,16 +146,16 @@ Ator Principal: Administrador do sistema.
 -	5. O sistema solicita informações sobre o topico escolhido.
 -	6. O sistema exibe uma mensagem de confirmação do cadastro.
 
-#####**Fluxo alternativo:**
+##### Fluxo alternativo:
 
 No passo 5, se houver algum erro de validação nas informações inseridas, o sistema exibe uma mensagem de erro e solicita ao administrador que corrija as informações incorretas.
 
-####**2**- Pesquisar:
+#### 2- Pesquisar:
 Descrição: Esse caso de uso permite ao usuário pesquisar detalhes de clientes, fornecedor ou uma festa no sistema.
 
 Ator Principal: Administrador do sistema.
 
-#####**Fluxo básico:**
+##### Fluxo básico:
 
 -	1. O administrador seleciona a opção de pesquisar no menu.
 -	2. O sistema solicita se o quer pesquisar clientes, fornecedores ou uma festa ou se quer sair do menu.
@@ -164,16 +164,16 @@ Ator Principal: Administrador do sistema.
 -	5. O sistema solicita informações sobre o codigo do qual é a pesquisa .
 -	6. O sistema exibe os dados encontrados e retoma ao topico 2.
 
-#####**Fluxo alternativo:**
+##### Fluxo alternativo:
 
 No passo 5, se houver algum erro de validação nas informações inseridas, o sistema exibe uma mensagem de erro e solicita ao administrador que corrija as informações incorretas.
 
-####**3**- Atualizar contrato:
+#### 3- Atualizar contrato:
 Descrição: Esse caso de uso permite ao usuário atualizar o contrato no sistema.
 
 Ator Principal: Administrador do sistema.
 
-#####**Fluxo básico:**
+##### Fluxo básico:
 
 -	1. O administrador seleciona a opção de atualizar contrato no menu.
 -	2. O sistema solicita o codigo do contrato que foi gerado ao cadastrar uma festa.
@@ -181,24 +181,18 @@ Ator Principal: Administrador do sistema.
 -	4. O sistema valida e arquiva os status do contrato.
 -	5. O sistema exibe atualização com sucesso e retoma ao menu principal.
 
-####**4**- Relatorios:
-Descrição: Esse caso de uso permite ao usuário pesquisar relatorios no sistema.
+#### 4- Relatórios:
+Descrição: Esse caso de uso permite ao usuário pesquisar relatórios no sistema.
 
 Ator Principal: Administrador do sistema.
 
-#####**Fluxo básico:**
+##### Fluxo básico:
 
--	1. O administrador seleciona a opção de relatorio no menu.
--	2. O sistema solicita qual relatorio quer olhar, tendo as seguintes opções: por cliente, data, lista de todos clientes, lista de todos fornecedores, lista de todas as festas, lista de todos os contratos e sair do menu.
--	3. O administrador insere o objetivo.
--	4. O sistema valida e entra na função de pesquia do que foi solicitado.
--	5. O sistema solicita informações sobre o codigo do qual é a pesquisa .
--	6. O sistema exibe os dados encontrados e retoma ao topico 2.
-
-#####**Fluxo alternativo:**
-
-No passo 5, se houver algum erro de validação nas informações inseridas, o sistema exibe uma mensagem de erro e solicita ao administrador que corrija as informações incorretas.
-
+-	1. O administrador seleciona a opção de relatório no menu.
+-	2. O sistema solicita qual relatório quer olhar, tendo as seguintes opções: por cliente, data, lista de todos clientes, lista de todos fornecedores, lista de todas as festas, lista de todos os contratos e sair do menu.
+-	3. O administrador insere qual o tipo de relatório ele deseja.
+-	3.5 Dependendo do relatório buscado será solicitado informações para serem digitadas.
+-	4. O sistema valida e apresenta o relatório do que foi solicitado e retoma ao topico 2.
 
 ## 5. Bibliografia
 ---------------------------------------------
@@ -208,4 +202,5 @@ Meta-Modelo usado como guia para definição do formato e conteúdo deste docume
 
 ## 6. Anexos 
 ---------------------------------------------
+-   Clique aqui(https://www.youtube.com/watch?v=pWXVsG4rj7k0 para ver o video apresentando o sistema    https://www.youtube.com/watch?v=pWXVsG4rj7k
 
