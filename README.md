@@ -63,7 +63,7 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 git clone https://github.com/oarthurfc/salaoDeFestas.git
 
 # Entrar no diretório
-
+cd codigo
 
 # Utilizar o programa codeblock e abrir arquivo:
 salaoDeFestas.cbp
