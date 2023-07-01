@@ -204,5 +204,5 @@ Meta-Modelo usado como guia para definição do formato e conteúdo deste docume
 ---------------------------------------------
 -   [Clique aqui](https://www.youtube.com/watch?v=pWXVsG4rj7k0) para ver o video apresentando o sistema.
 -   [Clique aqui](https://docs.google.com/document/d/1hvlVd_w5hOYzA_fIY5bYgsYL1WLetDSQTHfUy5AL5YE/edit?usp=sharing) para ver casos de teste.
--   [Clique aqui]() para ver o relatório do backlog do sistema.
+-   [Clique aqui](https://github.com/oarthurfc/salaoDeFestas/blob/main/documenta%C3%A7%C3%A3o/RELAT%C3%93RIO.md) para ver o relatório do backlog do sistema.
 
