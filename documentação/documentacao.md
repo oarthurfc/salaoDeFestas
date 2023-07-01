@@ -125,11 +125,8 @@ O sistema de gestão do salão de festas apresenta as seguintes restrições de 
 
 ## 4. Backlog do Produto
 
+![769ff967-2a25-4b7a-8cf9-e705e86e8f69](https://github.com/oarthurfc/salaoDeFestas/assets/119077937/b1a3ac07-ff1f-4849-8304-31cb6eac8dc9)
 ![78d72ec6-170f-4b59-8d48-ffa071a16eac](https://github.com/oarthurfc/salaoDeFestas/assets/119077937/4d396768-b3ab-44e3-99f0-57d00533e019)
-
-
-- ![image](https://github.com/oarthurfc/salaoDeFestas/assets/113954562/8d659746-0ad6-4266-84f2-321642edce98)
-- ![image](https://github.com/oarthurfc/salaoDeFestas/assets/113954562/0e480e01-be07-436e-9421-08bf4c648981)
 
 ## 5. Casos de Uso e Requisitos Funcionais
 ---------------------------------
