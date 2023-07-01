@@ -66,5 +66,5 @@ git clone https://github.com/oarthurfc/salaoDeFestas.git
 
 
 # Utilizar o programa codeblock e abrir arquivo:
-.cbp
+salaoDeFestas.cbp
 ---
