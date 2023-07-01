@@ -202,5 +202,7 @@ Meta-Modelo usado como guia para definição do formato e conteúdo deste docume
 
 ## 6. Anexos 
 ---------------------------------------------
--   Clique aqui(https://www.youtube.com/watch?v=pWXVsG4rj7k0 para ver o video apresentando o sistema    https://www.youtube.com/watch?v=pWXVsG4rj7k
+-   [Clique aqui](https://www.youtube.com/watch?v=pWXVsG4rj7k0) para ver o video apresentando o sistema.
+-   [Clique aqui](https://docs.google.com/document/d/1hvlVd_w5hOYzA_fIY5bYgsYL1WLetDSQTHfUy5AL5YE/edit?usp=sharing) para ver casos de teste.
+-   [Clique aqui]() para ver o relatório do backlog do sistema.
 
