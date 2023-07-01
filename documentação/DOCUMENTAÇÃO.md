@@ -18,9 +18,8 @@ Salão de Festas Patati Patatá
 * 4. [Backlog do Produto](#4-backlog-do-produto) 
 * 5. [Casos de Uso e Requisitos Funcionais](#5-casos-de-uso-e-requisitos-funcionais)	
     * 5.1 [Diagramas de Caso de Uso e Lista de casos de uso](#51-diagramas-de-caso-de-uso-e-lista-de-casos-de-uso)	
-    * 5.2 [Descrição de Casos de Uso](#52-descrição-de-casos-de-uso)	
-* 6. [Bibliografia](#6-bibliografia)	
-* 7. [Anexos](#5-anexos)	
+    * 5.2 [Descrição de Casos de Uso](#52-descrição-de-casos-de-uso)		
+* 6. [Anexos](#6-anexos)	
 
 ## 1. Introdução
 
@@ -199,12 +198,6 @@ Ator Principal: Administrador do sistema.
 -	3. O administrador insere qual o tipo de relatório ele deseja.
 -	3.5 Dependendo do relatório buscado será solicitado informações para serem digitadas.
 -	4. O sistema valida e apresenta o relatório do que foi solicitado e retoma ao topico 2.
-
-## 6. Bibliografia
----------------------------------------------
-
-[1] Ronaldo Lopes de Oliveira, EOR – Modelo de Documento de Especificação de Objetivos e Requisitos de Software, Versão 2.0, abril de 2014.
-Meta-Modelo usado como guia para definição do formato e conteúdo deste documento.
 
 ## 7. Anexos 
 ---------------------------------------------
