@@ -50,7 +50,7 @@ A proposta deste projeto, é criar um programa de cadastro de dados na linguagem
 
 ## 🚀 Tecnologias utilizadas
 
-O projeto está desenvolvido utilizando as seguintes tecnologias:
+O projeto está desenvolvido utilizando as seguinte tecnologia:
 
 - C
 
