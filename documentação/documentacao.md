@@ -112,7 +112,7 @@ Descrever os perfis de cada interessado envolvido com o sistema.
 
 #### Exemplo:
 
-![image](https://github.com/oarthurfc/salaoDeFestas/assets/113954562/81308b5c-2084-4360-a597-058e9a9a9c6f)
+![trabalhoaeds](https://github.com/oarthurfc/salaoDeFestas/assets/113954562/6acc1446-a759-40d7-b188-80094d293bd6)
 
 
 ### 3.2 Restrição de tecnologia
