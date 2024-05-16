@@ -31,7 +31,7 @@ seguir é descrito como deverá funcionar o sistema, bem como suas restrições.
 [![Davi](https://avatars0.githubusercontent.com/u/113954562?s=50 "Davi Augusto")](https://github.com/daviaugustoo) 
 [![João](https://avatars0.githubusercontent.com/u/138156212?s=50 "João Vitor Neri")](https://github.com/jovinemo) 
 
-## 📖 Sobre 
+## Sobre 
 
 Este é um projeto desenvolvido para as disciplinas **Fundamentos de Engenharia de Software** e **Algoritmo e Estrutura de Dados 1**,
 do curso de Engenharia de Software da **[PucMinas.br](https://www.pucminas.br/)**, durante o primeiro semestre de 2023.
@@ -56,7 +56,7 @@ O projeto está desenvolvido utilizando as seguinte tecnologia:
 
 --- 
 
-## ⌨ Como executar o projeto
+## Como executar o projeto
 
 ```bash
 # Baixar o Zip do projeto
