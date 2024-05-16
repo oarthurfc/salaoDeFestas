@@ -3,11 +3,11 @@
 ## 📋 Índice
 
 - [Contexto](#contexto)
-- [Documentação](#documentação)
+- [Documentação](#documentacao)
 - [Contribuidores](#contribuidores)
 - [Sobre](#sobre)
 - [Objetivos](#objetivos)
-- [Tecnologias utilizadas](#tecnologias-utilizadas)
+- [Tecnologias utilizadas](#🚀tecnologias-utilizadas)
 - [Como executar o projeto](#como-executar-o-projeto)
 
 ---
