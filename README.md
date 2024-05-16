@@ -3,12 +3,12 @@
 ## 📋 Índice
 
 - [Contexto](#contexto)
-- [Documentação](#documentacao)
+- [Documentação do Projeto](#documentação-do-projeto)
 - [Contribuidores](#contribuidores)
 - [Sobre](#sobre)
 - [Objetivos](#objetivos)
-- [Tecnologias utilizadas](#🚀tecnologias-utilizadas)
-- [Como executar o projeto](#como-executar-o-projeto)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Como Executar o Projeto](#como-executar-o-projeto)
 
 ---
 
@@ -29,7 +29,7 @@ seguir é descrito como deverá funcionar o sistema, bem como suas restrições.
 ## Contribuidores
 [![Arthur](https://avatars0.githubusercontent.com/u/119077937?s=50 "Arthur Ferreira")](https://github.com/oarthurfc) 
 [![Davi](https://avatars0.githubusercontent.com/u/113954562?s=50 "Davi Augusto")](https://github.com/daviaugustoo) 
-[![João](https://avatars.githubusercontent.com/u/138156212?s=50 "João Vitor Neri")](https://github.com/jovinemo) 
+[![João](https://avatars0.githubusercontent.com/u/138156212?s=50 "João Vitor Neri")](https://github.com/jovinemo) 
 
 ## 📖 Sobre 
 
