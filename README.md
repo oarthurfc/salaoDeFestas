@@ -1,14 +1,14 @@
 # Trabalho AED 1 - Salão de Festas
 
-## 📋 Índice
+## Índice
 
 - [Contexto](#contexto)
-- [Documentação do Projeto](#documentação-do-projeto)
+- [Documentação do projeto](#documentação-do-projeto)
 - [Contribuidores](#contribuidores)
 - [Sobre](#sobre)
 - [Objetivos](#objetivos)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Como Executar o Projeto](#como-executar-o-projeto)
+- [Tecnologias utilizadas](#tecnologias-utilizadas)
+- [Como executar o Projeto](#como-executar-o-projeto)
 
 ---
 
@@ -48,7 +48,7 @@ A proposta deste projeto, é criar um programa de cadastro de dados na linguagem
 
 --- 
 
-## 🚀 Tecnologias utilizadas
+## Tecnologias utilizadas
 
 O projeto está desenvolvido utilizando as seguinte tecnologia:
 
