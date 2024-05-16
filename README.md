@@ -29,7 +29,6 @@ seguir é descrito como deverá funcionar o sistema, bem como suas restrições.
 ## Contribuidores
 [![Arthur](https://avatars0.githubusercontent.com/u/119077937?s=50 "Arthur Ferreira")](https://github.com/oarthurfc) 
 [![Davi](https://avatars0.githubusercontent.com/u/113954562?s=50 "Davi Augusto")](https://github.com/daviaugustoo) 
-[![João](https://avatars0.githubusercontent.com/u/138156212?s=50 "João Vitor Neri")](https://github.com/jovinemo) 
 
 ## Sobre 
 
