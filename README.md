@@ -2,13 +2,13 @@
 
 ## 📋 Índice
 
-- [Contexto](#-Contexto)
-- [Documentação](#-Documentação)
-- [Contribuidores](#-Contribuidores)
-- [Sobre](#-Sobre)
-- [Objetivos](#-Objetivos)
-- [Tecnologias utilizadas](#-Tecnologias-utilizadas)
-- [Como executar o projeto](#-Como-executar-o-projeto)
+- [Contexto](#contexto)
+- [Documentação](#documentação)
+- [Contribuidores](#contribuidores)
+- [Sobre](#sobre)
+- [Objetivos](#objetivos)
+- [Tecnologias utilizadas](#tecnologias-utilizadas)
+- [Como executar o projeto](#como-executar-o-projeto)
 
 ---
 
